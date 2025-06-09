@@ -1,0 +1,8 @@
+SELECT * FROM public."oracle_support_ticket"
+WHERE product_area ilike '{{Table1.selectedRow.product_area || '%'}}' 
+	AND created_at > '{{filter_from.selectedDate}}' 
+	AND created_at < '{{filter_to.selectedDate}}'
+	{{FeatureTagUtils.getFeatureTagFilters()}}
+ORDER BY updated_at DESC
+LIMIT {{data_table_all.pageSize}}
+OFFSET {{(data_table_all.pageNo - 1) * data_table_all.pageSize}};

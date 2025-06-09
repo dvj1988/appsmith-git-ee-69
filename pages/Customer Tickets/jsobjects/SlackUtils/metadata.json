@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "673eb96261c1387a92619260_ac1e5b90-fcc7-4f97-a95c-36570d18a35a",
+  "id": "Customer Tickets_SlackUtils",
+  "unpublishedCollection": {
+    "name": "SlackUtils",
+    "pageId": "Customer Tickets",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

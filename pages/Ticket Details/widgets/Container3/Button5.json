@@ -1,0 +1,80 @@
+{
+  "animateLoading": true,
+  "borderRadius": "4px;\n* {\nfont-weight: 800;\nfont-size: .8rem;\n}",
+  "bottomRow": 4,
+  "bottomRowBeforeCollapse": 4,
+  "boxShadow": "none",
+  "buttonColor": "#3f3f46",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "right",
+  "iconName": "arrow-top-right",
+  "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{!!Ticket_Details.data[0].slack_thread}}",
+  "key": "yihreqq5ll",
+  "leftColumn": 50,
+  "minWidth": 120,
+  "mobileBottomRow": 70,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 27,
+  "mobileTopRow": 66,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onClick": "{{navigateTo(Ticket_Details.data[0].slack_thread, {}, 'NEW_WINDOW');}}",
+  "originalBottomRow": 4,
+  "originalTopRow": 0,
+  "parentColumnSpace": 7.510498046875,
+  "parentId": "dozo1uwltd",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 55,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Slack",
+  "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
+  "topRow": 0,
+  "topRowBeforeCollapse": 0,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "rq59s4pexr",
+  "widgetName": "Button5"
+}

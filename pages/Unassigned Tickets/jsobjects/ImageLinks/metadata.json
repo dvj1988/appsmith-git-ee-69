@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6733c2c2c9972364a137203c_48c7ea31-392c-4e26-b24f-439ee7665944",
+  "id": "Unassigned Tickets_ImageLinks",
+  "unpublishedCollection": {
+    "name": "ImageLinks",
+    "pageId": "Unassigned Tickets",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "logMaps",
+        "value": "{\n  \"INTERCOM\": \"https://cdn.worldvectorlogo.com/logos/intercom-2.svg\",\n  \"ZENDESK\": \"https://cdn.worldvectorlogo.com/logos/zendesk-3.svg\",\n  \"DISCORD\": \"https://cdn.worldvectorlogo.com/logos/discord-6.svg\"\n}"
+      }
+    ]
+  }
+}

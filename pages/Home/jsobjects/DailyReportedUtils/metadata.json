@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6650474154adc91438c48483_f7f5896c-30b3-4f97-b995-2d82d582982d",
+  "id": "Home_DailyReportedUtils",
+  "unpublishedCollection": {
+    "name": "DailyReportedUtils",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "IssueStatus",
+        "value": "{\n  'Pending on L1': {\n    icon: '🔴',\n    value: 0,\n    name: 'Pending on L1',\n    displayName: 'Pending on A-Force'\n  },\n  'Pending on L2': {\n    icon: '🔴',\n    value: 0,\n    name: 'Pending on L2',\n    displayName: 'Pending on A-Force'\n  },\n  'Pending Call': {\n    icon: '☎️',\n    value: 1,\n    name: 'Pending on Customer',\n    displayName: 'Pending Call'\n  },\n  'Pending on Customer': {\n    icon: '🧑‍💻',\n    value: 2,\n    name: 'Pending on Customer',\n    displayName: 'Pending on Customer'\n  },\n  'On-hold': {\n    icon: '💤',\n    value: 3,\n    name: 'On-hold',\n    displayName: 'On-hold'\n  },\n  'Inactive': {\n    icon: '🛏',\n    value: 4,\n    name: 'Inactive',\n    displayName: 'Inactive'\n  },\n  'Pending Engineering Fix': {\n    icon: '👷',\n    value: 5,\n    name: 'Pending Engineering Fix',\n    displayName: 'Pending Engineering Fix'\n  }\n}"
+      },
+      {
+        "name": "IssueTier",
+        "value": "{\n  critical: {\n    icon: '1️⃣',\n    value: 0,\n    name: 'T1'\n  },\n  high: {\n    icon: '2️⃣',\n    value: 1,\n    name: 'T2'\n  },\n  medium: {\n    icon: '3️⃣',\n    value: 2,\n    name: 'T3'\n  },\n  normal: {\n    icon: '4️⃣',\n    value: 3,\n    name: 'T4'\n  },\n  low: {\n    icon: '5️⃣',\n    value: 4,\n    name: 'T5'\n  }\n}"
+      }
+    ]
+  }
+}

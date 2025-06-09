@@ -1,0 +1,3 @@
+SELECT DISTINCT domain, id
+FROM public."oracle_support_organizations"
+ORDER BY id;

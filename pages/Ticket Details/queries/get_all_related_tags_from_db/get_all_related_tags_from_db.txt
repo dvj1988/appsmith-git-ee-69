@@ -1,0 +1,1 @@
+SELECT related_features from public."oracle_support_ticket" WHERE related_features != '';

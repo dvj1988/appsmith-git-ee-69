@@ -1,0 +1,5 @@
+SELECT FLOOR(AVG(ABS(resolution_time))) as avg, count(*), DATE_TRUNC('week', created_at) as week, status, severity, support_level
+FROM public."oracle_support_ticket"
+WHERE created_at > '{{filter_from.selectedDate}}' and created_at < '{{filter_to.selectedDate}}' and resolution_time is not null and (status = 'Resolved' or status = 'Inactive' or status = 'Ignore') {{UtilsPod.getScenarioCondition()}} 
+GROUP BY DATE_TRUNC('week', created_at), status, severity, support_level
+ORDER BY week;

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66878fc8470ac81ae3da028e_8627a370-213a-4d6a-82c7-7b8657f5f809",
+  "id": "Analytics_MetricsAll",
+  "unpublishedCollection": {
+    "name": "MetricsAll",
+    "pageId": "Analytics",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

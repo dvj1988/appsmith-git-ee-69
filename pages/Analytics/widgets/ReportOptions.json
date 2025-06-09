@@ -1,0 +1,73 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultOptionValue": "ENTERPRISE",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "labelTextSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.f75d6119a27d024bcadffee55460cf52.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "1mc7mdvveb",
+  "label": "Customers",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem;\n\npadding-bottom: 0.5rem;",
+  "labelWidth": 5,
+  "leftColumn": 46,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 23,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "options": "[\n  {\n    \"label\": \"Enterprise\",\n    \"value\": \"ENTERPRISE\"\n  },\n  {\n    \"label\": \"Business\",\n    \"value\": \"BUSINESS\"\n  },\n\t{\n    \"label\": \"Community\",\n    \"value\": \"COMMUNITY\"\n  },\n\t{\n    \"label\": \"All\",\n    \"value\": \"ALL\"\n  }\n]",
+  "parentColumnSpace": 15.484375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "choice"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.f1ed00d0b9588bed20e6359d9d03a790.svg",
+  "topRow": 2,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "10m8zwl1st",
+  "widgetName": "ReportOptions"
+}

@@ -1,0 +1,2 @@
+SELECT * FROM public."oracle_support_ticket"
+WHERE {{this.params.filter}};

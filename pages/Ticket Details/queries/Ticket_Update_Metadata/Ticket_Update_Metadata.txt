@@ -1,0 +1,12 @@
+UPDATE public."oracle_support_ticket" SET
+    "impacted_environment" = '{{environment.selectedOptionValues.join(', ')}}',
+    "issue_context" = '{{issue_context.selectedOptionValues.join(', ')}}',
+    "appsmith_version" = '{{version.text}}',
+    "issue_type" = '{{issue_type.selectedOptionValues.join((', '))}}',
+    "feature_tags" = '{{MultiSelect1.selectedOptionValues.join((', '))}}',
+    "issue_summary" = '{{input_issue_summary.text}}',
+    "resolution" = '{{input_issue_resolution.text}}',
+		"product_area" = '{{product_area.selectedOptionLabels.join(', ')}}',
+		"isblocked" = {{switchBlocked.isSwitchedOn}},
+		"pendingcall" = {{switchPendingCall.isSwitchedOn}}
+  WHERE id = {{Ticket_Details.data[0].id}};

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66878fc8470ac81ae3da028e_08e939cd-7c15-4dbe-b1e0-9c96ff58239e",
+  "id": "Analytics_TrendIssuesFirstResponseTime",
+  "unpublishedCollection": {
+    "name": "TrendIssuesFirstResponseTime",
+    "pageId": "Analytics",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

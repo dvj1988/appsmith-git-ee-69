@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "66878fc8470ac81ae3da028e_8efa58a0-ab7a-47ad-9b0a-0e058d027b51",
+  "id": "Analytics_UtilsChart",
+  "unpublishedCollection": {
+    "name": "UtilsChart",
+    "pageId": "Analytics",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "DATE_FORMAT",
+        "value": "\"MMM DD, YY\""
+      }
+    ]
+  }
+}

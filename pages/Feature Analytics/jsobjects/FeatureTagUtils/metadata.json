@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6703d46aea086c45d1709415_aea79452-7380-40a8-8296-28aad2f82aa3",
+  "id": "Feature Analytics_FeatureTagUtils",
+  "unpublishedCollection": {
+    "name": "FeatureTagUtils",
+    "pageId": "Feature Analytics",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "featureTagLookup",
+        "value": "{}"
+      }
+    ]
+  }
+}

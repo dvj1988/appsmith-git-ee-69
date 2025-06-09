@@ -1,0 +1,4 @@
+UPDATE public."oracle_support_ticket"
+SET isdailyreported = FALSE
+WHERE isdailyreported
+AND status IN ('On-hold', 'Resolved', 'Inactive', 'Ignore');

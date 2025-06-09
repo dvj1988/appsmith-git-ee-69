@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "64883535100b590b196f58e0_d74007cd-2761-4002-829c-d553d1c8f6b5",
+  "id": "Ticket Details_TicketConstants",
+  "unpublishedCollection": {
+    "name": "TicketConstants",
+    "pageId": "Ticket Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "supportTiers",
+        "value": "{\n  \"community\": \"Community\",\n  \"business_edition\": \"Business\",\n  \"trial_business\": \"Trial BE\",\n  \"enterprise_edition\": \"Enterprise\",\n  \"trial_enterprise\": \"Trial EE\"\n}"
+      },
+      {
+        "name": "status",
+        "value": "[\"New\", \"Pending on L1\", \"Pending on L2\", \"Pending on Customer\", \"In-progress\", \"Inactive\", \"On-hold\", \"Resolved\", \"Ignore\"]"
+      },
+      {
+        "name": "severity",
+        "value": "[\"critical\", \"high\", \"medium\", \"normal\", \"low\"]"
+      },
+      {
+        "name": "tiers",
+        "value": "{\n  \"Enterprise\": \"enterprise_edition\",\n  \"Business\": \"business_edition\",\n  \"Community\": \"community\"\n}"
+      }
+    ]
+  }
+}

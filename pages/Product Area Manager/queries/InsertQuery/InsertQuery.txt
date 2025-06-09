@@ -1,0 +1,6 @@
+INSERT INTO public."oracle_support_scenarios" (
+	"scenario",
+	"slack_owner_id")
+VALUES (
+	'{{insert_scenario.formData.scenario}}',
+	'{{insert_scenario.formData.owner}}');

@@ -1,0 +1,1 @@
+{{{"labels": [inpNewCustomer.text, ...getIssues.data.labels.map(i => i.name)]}}}

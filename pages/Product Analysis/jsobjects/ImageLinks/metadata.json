@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6650474154adc91438c48483_685dbfac-b427-4b33-9483-ccc00e33e684",
+  "id": "Product Analysis_ImageLinks",
+  "unpublishedCollection": {
+    "name": "ImageLinks",
+    "pageId": "Product Analysis",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "logMaps",
+        "value": "{\n  \"INTERCOM\": \"https://cdn.worldvectorlogo.com/logos/intercom-2.svg\",\n  \"ZENDESK\": \"https://cdn.worldvectorlogo.com/logos/zendesk-3.svg\",\n  \"DISCORD\": \"https://cdn.worldvectorlogo.com/logos/discord-6.svg\"\n}"
+      }
+    ]
+  }
+}

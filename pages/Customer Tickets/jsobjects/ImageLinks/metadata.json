@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "673eb96261c1387a92619260_1c4f5f88-2983-4834-a4d6-d22637330f90",
+  "id": "Customer Tickets_ImageLinks",
+  "unpublishedCollection": {
+    "name": "ImageLinks",
+    "pageId": "Customer Tickets",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "logMaps",
+        "value": "{\n  \"INTERCOM\": \"https://cdn.worldvectorlogo.com/logos/intercom-2.svg\",\n  \"ZENDESK\": \"https://cdn.worldvectorlogo.com/logos/zendesk-3.svg\",\n  \"DISCORD\": \"https://cdn.worldvectorlogo.com/logos/discord-6.svg\"\n}"
+      }
+    ]
+  }
+}

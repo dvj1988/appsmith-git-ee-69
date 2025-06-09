@@ -1,0 +1,10 @@
+SELECT t.related_features, count(*) FROM (
+	SELECT TRIM(UNNEST(string_to_array(related_features, ','))) as related_features FROM public."oracle_support_ticket"
+	{{FeatureTagUtils.getRelatedFeatureFilters()}}
+) as t 
+group by related_features
+having t.related_features <> 'N/A'
+and t.related_features <> 'n/a'
+and t.related_features <> ''
+and t.related_features NOT LIKE '%pod%' 
+ORDER BY count DESC;

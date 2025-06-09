@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "665786206cad227261ace5a4_fa3c9deb-080d-4850-a177-1d653a8dc20c",
+  "id": "Stability Stats_Onload",
+  "unpublishedCollection": {
+    "name": "Onload",
+    "pageId": "Stability Stats",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "licenses",
+        "value": "{}"
+      },
+      {
+        "name": "amounts",
+        "value": "{}"
+      }
+    ]
+  }
+}

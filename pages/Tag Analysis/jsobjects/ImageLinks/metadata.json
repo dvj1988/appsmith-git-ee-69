@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "668d154696c8996967699773_aa11508d-4c43-4828-977f-0e96315fc6f7",
+  "id": "Tag Analysis_ImageLinks",
+  "unpublishedCollection": {
+    "name": "ImageLinks",
+    "pageId": "Tag Analysis",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "logMaps",
+        "value": "{\n  \"INTERCOM\": \"https://cdn.worldvectorlogo.com/logos/intercom-2.svg\",\n  \"ZENDESK\": \"https://cdn.worldvectorlogo.com/logos/zendesk-3.svg\",\n  \"DISCORD\": \"https://cdn.worldvectorlogo.com/logos/discord-6.svg\"\n}"
+      }
+    ]
+  }
+}

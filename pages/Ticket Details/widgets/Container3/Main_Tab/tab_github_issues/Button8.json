@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 57,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "gwf8rehdxf",
+  "leftColumn": 48,
+  "minWidth": 120,
+  "mobileBottomRow": 55,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 51,
+  "needsErrorInfo": false,
+  "onClick": "{{NewIssue.run().then(() => {\n  showAlert('Successfully Created', 'success');\n  resetWidget(\"inpSubject\", true);\n  resetWidget(\"inpDesc\", true);\n  resetWidget(\"inpNewCustomer\", true);\n  resetWidget(\"selectCustomer\", true);\n  update_github_issues.run({\n    \"issues\": !!get_github_issues.data[0].github_issues ? get_github_issues.data[0].github_issues + ', ' + NewIssue.data.html_url : NewIssue.data.html_url\n  }).then(() => {\n    showAlert('successfully added new issue', \"success\");\n  });\n  resetWidget(\"tab_github_issues\", true);\n  TicketUtils.getGithubIssues('true');\n});}}",
+  "originalBottomRow": 57,
+  "originalTopRow": 52,
+  "parentColumnSpace": 8.5,
+  "parentId": "ykb73sng0x",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Submit",
+  "topRow": 52,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "lovrm3rqnj",
+  "widgetName": "Button8"
+}

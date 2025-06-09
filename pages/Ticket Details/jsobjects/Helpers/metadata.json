@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "64883535100b590b196f58e0_5feb05f2-40e9-437a-b6ff-d9f6b0cfddbd",
+  "id": "Ticket Details_Helpers",
+  "unpublishedCollection": {
+    "name": "Helpers",
+    "pageId": "Ticket Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "OriginalURLs",
+        "value": "{\n  ZENDESK: \"https://appsmith3239.zendesk.com/agent/tickets/\",\n  INTERCOM: \"https://app.frontapp.com/open/\",\n  DISCORD: \"https://app.frontapp.com/open/\"\n}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+SELECT * FROM public."oracle_support_feature_tags"
+WHERE name ilike '%Pod%';

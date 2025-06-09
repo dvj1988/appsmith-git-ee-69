@@ -1,0 +1,3 @@
+UPDATE public."oracle_support_feature_tags" SET
+    "zendesk" = '{{this.params.zd}}'
+  WHERE id = {{this.params.id}};

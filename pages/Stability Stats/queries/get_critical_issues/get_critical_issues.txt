@@ -1,0 +1,4 @@
+SELECT *, DATE_TRUNC('month', created_at) as month
+FROM public."oracle_support_ticket"
+WHERE created_at > '{{filter_from.selectedDate}}' and created_at < '{{filter_to.selectedDate}}' and severity = 'critical' AND requester_email ILIKE '%@%'
+GROUP BY month, id

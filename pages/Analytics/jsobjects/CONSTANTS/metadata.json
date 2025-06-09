@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "66878fc8470ac81ae3da028e_8d3e5bba-c189-4660-a2ce-2f1381a89cae",
+  "id": "Analytics_CONSTANTS",
+  "unpublishedCollection": {
+    "name": "CONSTANTS",
+    "pageId": "Analytics",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "reportOptions",
+        "value": "{\n  ALL: \"ALL\",\n  COMMUNITY: \"COMMUNITY\",\n  BUSINESS: \"BUSINESS\",\n  ENTERPRISE: \"ENTERPRISE\"\n}"
+      }
+    ]
+  }
+}

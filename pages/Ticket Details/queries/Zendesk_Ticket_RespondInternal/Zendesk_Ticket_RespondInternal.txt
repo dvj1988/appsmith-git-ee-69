@@ -1,0 +1,3 @@
+{{
+{"ticket": {"comment": { "body": input_response.text, "public": false }}}
+}}

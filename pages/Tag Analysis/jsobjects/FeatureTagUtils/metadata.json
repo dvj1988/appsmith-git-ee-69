@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "668d154696c8996967699773_b09810c8-ad09-4607-8d27-c44a2de8f42f",
+  "id": "Tag Analysis_FeatureTagUtils",
+  "unpublishedCollection": {
+    "name": "FeatureTagUtils",
+    "pageId": "Tag Analysis",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "featureTagLookup",
+        "value": "{}"
+      }
+    ]
+  }
+}

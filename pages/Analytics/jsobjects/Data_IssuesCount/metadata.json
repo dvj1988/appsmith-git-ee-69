@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66878fc8470ac81ae3da028e_a2443e6a-6708-4f4c-a0cd-d5fabfdc7898",
+  "id": "Analytics_Data_IssuesCount",
+  "unpublishedCollection": {
+    "name": "Data_IssuesCount",
+    "pageId": "Analytics",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

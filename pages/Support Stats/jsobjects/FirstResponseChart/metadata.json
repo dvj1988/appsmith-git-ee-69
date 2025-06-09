@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "667cfff7c53ce629209f547d_f1daea01-08c8-4627-ad96-8f2b07e4d257",
+  "id": "Support Stats_FirstResponseChart",
+  "unpublishedCollection": {
+    "name": "FirstResponseChart",
+    "pageId": "Support Stats",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

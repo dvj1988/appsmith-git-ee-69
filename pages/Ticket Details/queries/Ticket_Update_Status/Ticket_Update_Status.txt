@@ -1,0 +1,5 @@
+UPDATE public."oracle_support_ticket" SET
+		"status" = '{{this.params.status || Ticket_Details.data[0].status}}',
+		"severity" = '{{this.params.severity || Ticket_Details.data[0].severity}}',
+		"support_level" = '{{this.params.tier || Ticket_Details.data[0].support_level}}'
+WHERE id = {{Ticket_Details.data[0].id}};

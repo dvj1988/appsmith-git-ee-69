@@ -1,0 +1,5 @@
+UPDATE public."oracle_support_ticket" SET
+    "isdailyreported" = {{this.params.isDailyReported}},
+		isblocked = {{this.params.isBlocked}},
+		pendingcall = {{this.params.isPendingCall}}
+WHERE id = {{data_table_all.selectedRow.id}};

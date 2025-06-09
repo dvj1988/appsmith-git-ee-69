@@ -1,0 +1,7 @@
+SELECT product_area, COUNT(*) FROM public."oracle_support_ticket"
+WHERE product_area <> '' 
+	AND product_area IS NOT NULL 
+	AND created_at > '{{filter_from.selectedDate}}' 
+	AND created_at < '{{filter_to.selectedDate}}'
+	{{FeatureTagUtils.getFeatureTagFilters()}}
+GROUP BY product_area ORDER BY count DESC;

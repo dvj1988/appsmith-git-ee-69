@@ -1,0 +1,1 @@
+SELECT * FROM public."oracle_support_ticket" WHERE feature_tags  IS NOT NULL AND related_features IS NOT NULL LIMIT 10;

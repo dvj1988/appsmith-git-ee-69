@@ -1,0 +1,8 @@
+{
+	"assistant_id": "asst_aGjCESIVCvR0JC619PArWgwn",
+	"thread": {
+		"messages": [
+			{"role": "user", "content": "{{Common.removeTags(Ticket_Details.data[0].description)}}"}
+		]
+	}
+}

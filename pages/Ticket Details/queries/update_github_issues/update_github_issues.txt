@@ -1,0 +1,5 @@
+UPDATE public."oracle_support_ticket"
+SET
+	"github_issues" = '{{this.params.issues}}'
+WHERE
+	id = '{{Ticket_Details.data[0].id}}';

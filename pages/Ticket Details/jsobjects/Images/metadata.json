@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "64883535100b590b196f58e0_c5d2991b-4298-4288-b7f9-c50d91b0631a",
+  "id": "Ticket Details_Images",
+  "unpublishedCollection": {
+    "name": "Images",
+    "pageId": "Ticket Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "logos",
+        "value": "{\n  \"INTERCOM\": \"https://cdn.worldvectorlogo.com/logos/intercom-2.svg\",\n  \"ZENDESK\": \"https://cdn.worldvectorlogo.com/logos/zendesk-3.svg\",\n  \"DISCORD\": \"https://cdn.worldvectorlogo.com/logos/discord-6.svg\"\n}"
+      }
+    ]
+  }
+}

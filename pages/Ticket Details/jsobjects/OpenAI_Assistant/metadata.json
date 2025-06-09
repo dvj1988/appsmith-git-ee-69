@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "66b1d5281540b31bf17c0abc_8da730af-df14-482d-9fab-5c3178440dd8",
+  "id": "Ticket Details_OpenAI_Assistant",
+  "unpublishedCollection": {
+    "name": "OpenAI_Assistant",
+    "pageId": "Ticket Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "interval",
+        "value": "null"
+      }
+    ]
+  }
+}

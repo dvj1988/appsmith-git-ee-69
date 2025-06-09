@@ -1,0 +1,1 @@
+{{{"title": inpSubject.text ,"body": inpDesc.text ,"labels": [inpNewCustomer.text, ...product_area.selectedOptionLabels, ...MultiSelect1.selectedOptionLabels]}}}

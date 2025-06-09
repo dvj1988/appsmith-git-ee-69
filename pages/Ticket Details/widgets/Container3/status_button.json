@@ -1,0 +1,117 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "configureMenuItems": {
+    "config": {
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{status_button.sourceData.map((currentItem, currentIndex) => ( currentItem))}}",
+      "onClick": "{{TicketUtils.updateTicketStatus(false, false, currentItem)}}"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
+  "displayName": "Menu button",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "configureMenuItems.config.label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "configureMenuItems.config.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "configureMenuItems.config.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.33a4057faa7212849fa6ff1f15f2da0f.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "whfzwji53p",
+  "label": "Status: {{Ticket_Details.data[0].status || \"N/A\"}}",
+  "leftColumn": 20,
+  "menuColor": "{{TicketUtils.statusColors[Ticket_Details.data[0].status || \"na\"]}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "First Menu Item",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Second Menu Item",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Third Menu Item",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "DYNAMIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
+  "parentColumnSpace": 15.328125,
+  "parentId": "dozo1uwltd",
+  "parentRowSpace": 10,
+  "placement": "START",
+  "renderMode": "CANVAS",
+  "rightColumn": 31,
+  "sourceData": "{{TicketConstants.status}}",
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
+  "topRow": 0,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "d7im98zlai",
+  "widgetName": "status_button"
+}

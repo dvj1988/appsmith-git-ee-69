@@ -1,0 +1,3 @@
+SELECT COALESCE(appsmith_version, 'Unknown') AS appsmith_version, count(*) FROM public."oracle_support_ticket"
+group by appsmith_version
+order by appsmith_version DESC

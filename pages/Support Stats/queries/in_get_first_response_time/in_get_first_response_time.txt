@@ -1,0 +1,4 @@
+SELECT FLOOR(AVG(ABS(internal_first_response_time))) as avg, count(*), DATE_TRUNC('week', created_at) as week, status, severity, support_level
+FROM public."oracle_support_ticket"
+WHERE created_at > '{{filter_from.selectedDate}}' and created_at < '{{filter_to.selectedDate}}' and internal_first_response_time is not null and (slack_thread is not null or slack_thread <> '')
+GROUP BY DATE_TRUNC('week', created_at), status, severity, support_level ORDER BY week;

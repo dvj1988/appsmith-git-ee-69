@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 132,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "gwf8rehdxf",
+  "leftColumn": 48,
+  "minWidth": 120,
+  "mobileBottomRow": 55,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 51,
+  "needsErrorInfo": false,
+  "onClick": "{{NewIssue.run().then(() => {\n  showAlert('Successfully Created', 'success');\n  resetWidget(\"inpSubject\", true);\n  resetWidget(\"inpDesc\", true);\n  resetWidget(\"inpNewCustomer\", true);\n  resetWidget(\"selectCustomer\", true);\n});}}",
+  "originalBottomRow": 130,
+  "originalTopRow": 125,
+  "parentColumnSpace": 8.5,
+  "parentId": "onil8tx6qh",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Submit",
+  "topRow": 127,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "z6lzmu62je",
+  "widgetName": "Button8Copy"
+}

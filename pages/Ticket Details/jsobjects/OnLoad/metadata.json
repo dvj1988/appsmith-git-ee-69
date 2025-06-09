@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "64883535100b590b196f58e0_a324bd5a-974d-48e8-806c-0d85abf86a9c",
+  "id": "Ticket Details_OnLoad",
+  "unpublishedCollection": {
+    "name": "OnLoad",
+    "pageId": "Ticket Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "licenses",
+        "value": "[]"
+      },
+      {
+        "name": "custId",
+        "value": "null"
+      }
+    ]
+  }
+}

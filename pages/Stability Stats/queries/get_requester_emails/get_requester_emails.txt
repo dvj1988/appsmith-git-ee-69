@@ -1,0 +1,3 @@
+SELECT DISTINCT requester_email
+FROM oracle_support_ticket
+WHERE created_at > '{{filter_from.selectedDate}}' and created_at < '{{filter_to.selectedDate}}' and support_level != 'community' and severity = 'critical' AND requester_email ILIKE '%@%'

@@ -1,0 +1,3 @@
+UPDATE public."oracle_support_ticket"
+SET "related_features" = {{this.params.features}}
+WHERE id = {{this.params.id}};

@@ -1,0 +1,101 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "configureMenuItems": {
+    "config": {
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{tier_button.sourceData.map((currentItem, currentIndex) => ( currentItem))}}",
+      "onClick": "{{TicketUtils.updateTicketStatus(currentItem, false, false)}}"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
+  "displayName": "Menu button",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "label"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "configureMenuItems.config.label"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "configureMenuItems.config.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "configureMenuItems.config.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.33a4057faa7212849fa6ff1f15f2da0f.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "whfzwji53p",
+  "label": "Support: {{TicketConstants.supportTiers[Ticket_Details.data[0].support_level] || \"N/A\"}}",
+  "leftColumn": 2,
+  "menuColor": "{{ColorUtils.tierColors[Ticket_Details.data[0].support_level || \"na\"]}}",
+  "menuItems": {
+    "menuItem3": {
+      "id": "menuItem3",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Third Menu Item",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "DYNAMIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 13,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
+  "parentColumnSpace": 15.328125,
+  "parentId": "dozo1uwltd",
+  "parentRowSpace": 10,
+  "placement": "START",
+  "renderMode": "CANVAS",
+  "rightColumn": 11,
+  "sourceData": "{{Object.keys(TicketConstants.tiers)}}",
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
+  "topRow": 0,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8ubqmpvmdk",
+  "widgetName": "tier_button"
+}

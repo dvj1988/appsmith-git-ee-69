@@ -1,0 +1,3 @@
+UPDATE public."oracle_support_ticket"
+SET "l2owner" = '{{l2_owner.selectedOptionValue}}'
+WHERE id = {{Ticket_Details.data[0].id}};

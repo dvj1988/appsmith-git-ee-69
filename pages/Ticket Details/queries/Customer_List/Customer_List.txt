@@ -1,0 +1,1 @@
+SELECT DISTINCT domain FROM public."oracle_support_organizations";

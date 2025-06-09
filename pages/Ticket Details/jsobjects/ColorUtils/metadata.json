@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "64883535100b590b196f58e0_c16cebde-4f52-4839-b03a-0facde0bdfa5",
+  "id": "Ticket Details_ColorUtils",
+  "unpublishedCollection": {
+    "name": "ColorUtils",
+    "pageId": "Ticket Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "statusColors",
+        "value": "{\n  \"New\": \"#DA70D6\",\n  \"Pending on L1\": \"#FFC0CB\",\n  \"Pending on L2\": \"#FFDAB9\",\n  \"Pending on Customer\": \"#87CEFA\",\n  \"In-progress\": \"#ADD8E6\",\n  \"Reminder 1\": \"#ADD8E6\",\n  \"Reminder 2\": \"#ADD8E6\",\n  \"Inactive\": \"#D3D3D3\",\n  \"On-hold\": \"#8B4513\",\n  \"Resolved\": \"#90EE90\",\n  \"Ignore\": \"#A9A9A9\",\n  \"na\": \"#F5F5F5\"\n}"
+      },
+      {
+        "name": "severityColors",
+        "value": "{\n  \"emergency\": \"#8B008B\",\n  \"critical\": \"#FF4500\",\n  \"high\": \"#FFA500\",\n  \"medium\": \"#FFFF00\",\n  \"normal\": \"#B0E0E6\",\n  \"low\": \"#B0E0E6\",\n  \"na\": \"#F5F5F5\"\n}"
+      },
+      {
+        "name": "tierColors",
+        "value": "{\n  \"enterprise_edition\": \"#FFB6C1\",\n  \"trial_enterprise\": \"#FFDAB9\",\n  \"business_edition\": \"#FFD700\",\n  \"trial_business\": \"#FFECB3\",\n  \"community\": \"#B2DFEE\",\n  \"na\": \"#F5F5F5\"\n}"
+      }
+    ]
+  }
+}

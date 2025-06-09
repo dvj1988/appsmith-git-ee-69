@@ -1,0 +1,5 @@
+SELECT * FROM public."oracle_support_ticket"
+WHERE created_at > '{{filter_from.selectedDate}}' and created_at < '{{filter_to.selectedDate}}' and support_level != 'community' and severity = 'critical' AND requester_email ILIKE '%@%'
+ORDER BY created_at DESC
+LIMIT {{data_table_all.pageSize}}
+OFFSET {{(data_table_all.pageNo - 1) * data_table_all.pageSize}};

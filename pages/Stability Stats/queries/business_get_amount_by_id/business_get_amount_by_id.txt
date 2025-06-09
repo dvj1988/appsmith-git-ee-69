@@ -1,0 +1,1 @@
+SELECT * FROM stripe."charges" WHERE paid = true and customer_id in ({{this.params.ids}}) ORDER BY created DESC LIMIT 1;

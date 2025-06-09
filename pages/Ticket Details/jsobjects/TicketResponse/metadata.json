@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "664b03802160952544ef0197_a30cdbeb-e318-45ad-b376-00250c60608a",
+  "id": "Ticket Details_TicketResponse",
+  "unpublishedCollection": {
+    "name": "TicketResponse",
+    "pageId": "Ticket Details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

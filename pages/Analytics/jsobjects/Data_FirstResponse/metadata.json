@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66878fc8470ac81ae3da028e_cf3e947d-c55f-43b9-9dfe-0e3193cb9f26",
+  "id": "Analytics_Data_FirstResponse",
+  "unpublishedCollection": {
+    "name": "Data_FirstResponse",
+    "pageId": "Analytics",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

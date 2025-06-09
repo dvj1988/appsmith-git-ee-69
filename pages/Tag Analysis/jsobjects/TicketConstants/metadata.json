@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "668d154696c8996967699773_87e9ec09-3921-4d4c-86d1-d33574b5b039",
+  "id": "Tag Analysis_TicketConstants",
+  "unpublishedCollection": {
+    "name": "TicketConstants",
+    "pageId": "Tag Analysis",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "supportTiers",
+        "value": "{\n  \"community\": \"Community\",\n  \"business_edition\": \"Business\",\n  \"trial_business\": \"Trial BE\",\n  \"enterprise_edition\": \"Enterprise\",\n  \"trial_enterprise\": \"Trial EE\"\n}"
+      },
+      {
+        "name": "ticketStatus",
+        "value": "[\"N/A\", \"New\", \"Pending on L1\", \"Pending on L2\", \"Pending on Customer\", \"Reminder 1\", \"Reminder 2\", \"Inactive\", \"On-hold\", \"Resolved\", \"Ignore\"]"
+      },
+      {
+        "name": "ticketSeverity",
+        "value": "[\"N/A\", \"Critical\", \"High\", \"Medium\", \"Normal\", \"Low\"]"
+      },
+      {
+        "name": "ticketSupportTier",
+        "value": "[{\n  label: \"N/A\",\n  value: \"n/a\"\n}, {\n  label: \"Enterprise\",\n  value: \"enterprise_edition\"\n}, {\n  label: \"Enterprise Trial\",\n  value: \"trial_enterprise\"\n}, {\n  label: \"Business\",\n  value: \"business_edition\"\n}, {\n  label: \"Business Trial\",\n  value: \"trial_business\"\n}, {\n  label: \"Community\",\n  value: \"community\"\n}]"
+      }
+    ]
+  }
+}

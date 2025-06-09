@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66bafc6c8704ba3b9dd006ba_11391014-a71a-4d62-9be7-b64cc7139e86",
+  "id": "Feature Tags Manager_testing",
+  "unpublishedCollection": {
+    "name": "testing",
+    "pageId": "Feature Tags Manager",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

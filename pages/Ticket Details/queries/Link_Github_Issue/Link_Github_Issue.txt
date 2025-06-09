@@ -1,0 +1,2 @@
+INSERT INTO public."oracle_support_customer_github_issues" ("customer_id", "github_issue")
+  VALUES ({{OnLoad.custId}}, {{this.params.issue}});

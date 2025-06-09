@@ -1,0 +1,4 @@
+UPDATE public."oracle_support_scenarios" SET
+		"scenario" = '{{update_formCopy.fieldState.scenario.isVisible ? update_formCopy.formData.scenario : update_formCopy.sourceData.scenario}}',
+		"slack_owner_id" = '{{update_formCopy.fieldState.slack_owner_id.isVisible ? update_formCopy.formData.slack_owner_id : update_formCopy.sourceData.slack_owner_id}}'
+WHERE "id" = {{data_table.selectedRow.id}};

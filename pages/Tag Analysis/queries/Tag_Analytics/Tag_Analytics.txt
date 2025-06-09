@@ -1,0 +1,10 @@
+SELECT t.feature_tags, count(*) FROM (
+	SELECT TRIM(UNNEST(string_to_array(feature_tags, ','))) as feature_tags FROM public."oracle_support_ticket"
+	{{FeatureTagUtils.getFilters()}}
+) as t 
+group by feature_tags
+having t.feature_tags <> 'N/A'
+and t.feature_tags <> 'n/a'
+and t.feature_tags <> ''
+and t.feature_tags NOT LIKE '%pod%' 
+ORDER BY count DESC;

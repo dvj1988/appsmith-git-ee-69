@@ -1,0 +1,113 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "noLogoOrApplicationTitle",
+      "navStyle": "inline",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#D9E7FF",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
+  "evaluationVersion": 2,
+  "icon": "product",
+  "pages": [
+    {
+      "id": "Home",
+      "isDefault": true
+    },
+    {
+      "id": "Ticket Details",
+      "isDefault": false
+    },
+    {
+      "id": "Analytics",
+      "isDefault": false
+    },
+    {
+      "id": "Support Stats",
+      "isDefault": false
+    },
+    {
+      "id": "Engineering Stats",
+      "isDefault": false
+    },
+    {
+      "id": "Stability Stats",
+      "isDefault": false
+    },
+    {
+      "id": "Product Analysis",
+      "isDefault": false
+    },
+    {
+      "id": "Product Area Manager",
+      "isDefault": false
+    },
+    {
+      "id": "Feature Tags Manager",
+      "isDefault": false
+    },
+    {
+      "id": "Tag Analysis",
+      "isDefault": false
+    },
+    {
+      "id": "Feature Analytics",
+      "isDefault": false
+    },
+    {
+      "id": "Unassigned Tickets",
+      "isDefault": false
+    },
+    {
+      "id": "Customer Tickets",
+      "isDefault": false
+    },
+    {
+      "id": "Tickets By Version",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "noLogoOrApplicationTitle",
+      "navStyle": "inline",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": false
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

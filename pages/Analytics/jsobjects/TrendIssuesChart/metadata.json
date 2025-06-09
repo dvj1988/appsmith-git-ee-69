@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66878fc8470ac81ae3da028e_c0e741b0-8ceb-4db5-a571-9cb78b6eec0b",
+  "id": "Analytics_TrendIssuesChart",
+  "unpublishedCollection": {
+    "name": "TrendIssuesChart",
+    "pageId": "Analytics",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
