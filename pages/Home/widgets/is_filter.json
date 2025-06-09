@@ -53,7 +53,7 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onChange": "{{advance_filters.setVisibility(!advance_filters.isVisible).then(() => {\nif (advance_filters.isVisible) return false;\nresetWidget(\"advance_filters\", true).then(() => {\n\t\tQueryUtils.fetchData()\n\t})\n})}}",
-  "originalBottomRow": 5,
+  "originalBottomRow": 6,
   "originalTopRow": 1,
   "parentColumnSpace": 15.171875,
   "parentId": "0",

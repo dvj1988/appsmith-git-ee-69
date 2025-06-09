@@ -87,6 +87,10 @@
     {
       "id": "Tickets By Version",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

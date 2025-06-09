@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignWidget": "LEFT",
   "animateLoading": true,
-  "bottomRow": 26,
+  "bottomRow": 25,
   "boxShadow": "none",
   "defaultSwitchState": "{{!!data_table_all.selectedRow.isblocked}}",
   "displayName": "Switch",
@@ -61,8 +61,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onChange": "{{DailyReportedUtils.updateDailyReport()}}",
-  "originalBottomRow": 24,
-  "originalTopRow": 20,
+  "originalBottomRow": 26,
+  "originalTopRow": 22,
   "parentColumnSpace": 4.4775390625,
   "parentId": "rsz6v11wwn",
   "parentRowSpace": 10,
@@ -76,7 +76,7 @@
     "Toggles"
   ],
   "thumbnailSVG": "/static/media/thumbnail.cd04c6d6a11266a806cebe39829607cb.svg",
-  "topRow": 22,
+  "topRow": 21,
   "type": "SWITCH_WIDGET",
   "version": 1,
   "widgetId": "qlbrzf7f47",
