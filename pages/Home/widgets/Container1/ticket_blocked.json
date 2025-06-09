@@ -61,8 +61,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onChange": "{{DailyReportedUtils.updateDailyReport()}}",
-  "originalBottomRow": 26,
-  "originalTopRow": 22,
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
   "parentColumnSpace": 4.4775390625,
   "parentId": "rsz6v11wwn",
   "parentRowSpace": 10,
